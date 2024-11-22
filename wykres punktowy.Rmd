@@ -9,7 +9,9 @@ output: html_document
 library(tidyverse)
 
 ggplot(mpg, aes(x = displ, y = hwy, color = drv)) +
-  geom_point()
+  geom_point() +
+  labs(x = "Pojemność silnika (l)", y = "Zużycie paliwa (mpg)") +
+  theme_minimal()
 ```
 
 
