@@ -1,0 +1,2 @@
+# nasz_wykresik
+Analityka_gospodarcza_zadanie_github
